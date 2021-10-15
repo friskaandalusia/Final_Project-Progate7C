@@ -126,6 +126,8 @@ nav ul li a:hover::after{
     margin: 25px 5px;
 }
 
+/* bagian portofolio */
+
 .container-proyek h2{
     color: #7879f1;
     font-size: 16px;
@@ -200,4 +202,114 @@ nav ul li a:hover::after{
     color:#f8748d;
     cursor: pointer;
     transition: 0.5s;
+    }
+
+/* bagian layanan     */
+
+.page-layanan {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, rgb(236, 63, 86), #3644C6, #EE6F57);
+    background-size: 400% 400%;
+    position: relative;
+    animation: smile 10s ease-in-out infinite;
+    }
+
+@keyframes smile {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    } 
+    100%{
+        background-position: 0 50%;
+    }     
+}
+
+    .heading h2{
+        text-align: center;
+        font-family: Poppins, signika Negative;
+        font-style: italic;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 31px;
+        padding-top: 50px;
+        padding-bottom: 80px;
+        color: #24262A;
+    }
+    
+    img{
+        border-radius: 8px;
+        width: 12pc;
+        opacity: 1;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        display: block;
+    }
+    
+    
+    .lesson{
+        float: left;
+        width: 20%;
+        padding-left: 40px;
+    }
+    
+    .lesson-icon{
+        position: relative;
+    }
+    
+    .lesson-icon p{
+        position: absolute;
+        top:10px;
+        width:100%;
+        color:white;
+        padding-left: 10px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        opacity: 2;
+    }
+    
+    .lesson-icon:hover img{
+        opacity: 0.5;
+    }
+    
+    .overlay{
+      text-align: center;
+      position: absolute;
+      top: 125px;
+      padding-left: 185px;
+      opacity: 0;
+      transition: .5s ease;
+    }
+    
+    .lesson-icon:hover .overlay {
+        opacity: 2;
+    }
+    
+    .hello{
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+    
+    .txt-contents {
+        text-align: center;
+        width: 80%;
+        display: inline-block;
+        margin-top: 20px;
+        font-family: Signika Negative;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 15px;
+        color: white;
+        opacity: 0.7;
     }
