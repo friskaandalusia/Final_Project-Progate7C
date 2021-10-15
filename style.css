@@ -12,7 +12,7 @@
 
  background-size: cover;
  background-position: center;
- padding: 0 8%;
+ padding: 0 2%;
  position: relative;
 
 }
@@ -26,11 +26,20 @@ nav{
 .logo{
     width: 120px;
     cursor: pointer;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    margin-top: 15px;
+    margin-left: 50px;
 }
 nav ul{
     flex: 1;
     text-align: right;
     padding-right: 10px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 nav ul li{
     display: inline-block;
@@ -485,7 +494,7 @@ nav ul li a:hover::after{
 
 .blink{
     height:600px;
-    background-color:#778899;
+    background-color:darkorchid;
     padding: 2% 5% 2% 5%;
 }
  
