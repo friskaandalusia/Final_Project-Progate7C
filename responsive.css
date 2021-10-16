@@ -17,12 +17,10 @@
 
 @media all and (max-width: 670px) {
     /*proyek*/
-    .container-proyek h2,.container-proyek h1{
-        text-align: left;
-    }
     .proyek-proyek{
         flex-wrap: wrap;
         margin-bottom: 50px;
+
     }
     .proyek{
         width:100%;
