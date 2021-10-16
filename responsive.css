@@ -1,4 +1,36 @@
 @media all and (max-width: 1000px) {
+
+    /*beranda*/
+    nav ul{
+        display: none;
+    }
+    .text-box p{
+        padding-top: 0px 10px 10px 0px;
+        display: none;
+       
+    
+    }
+    .text-box h1{
+        padding-bottom: -50px;
+        margin-left: 20px;
+        font-size: 50px;
+      
+     
+    }
+    
+    .text-box .row{
+      display: inline-block;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+    
+    .text-box h3{
+        font-size: 23px;
+        font-weight: 200;
+    }
+    
+
+
     /*proyek*/
     .container-proyek h2{
         padding-top: 20px;
