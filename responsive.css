@@ -30,7 +30,17 @@
     }
     
 
+/*tentang*/
 
+.main img{
+    max-width: 80px;
+}
+.icontentang p{
+    font-size: 12px;
+}
+.kontenbro{
+    display: none;
+}
     /*proyek*/
     .container-proyek h2{
         padding-top: 20px;
