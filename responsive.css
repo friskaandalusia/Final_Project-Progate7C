@@ -59,3 +59,33 @@
     }
 
 }
+
+/* bagian layanan */
+@media all and (max-width: 1000px){
+    .page-layanan{
+        height: 200vh;
+    }
+    .lesson{
+        width: 50%;
+    }
+    .txt-contents{
+        text-align: left;
+    }
+
+}
+
+@media all and (max-width: 670px){
+    .page-layanan{
+        height: 280vh;
+    }
+    .lesson{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .txt-contents{
+        text-align: left;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
