@@ -1,0 +1,31 @@
+@media all and (max-width: 1000px) {
+    /*proyek*/
+    .container-proyek h2{
+        padding-top: 20px;
+    }
+    .proyek-proyek{
+        flex-wrap: wrap;
+        padding:20px 0;
+        margin-bottom: 20px;
+
+    }
+    .proyek{
+        width:29%;
+    }
+
+}
+
+@media all and (max-width: 670px) {
+    /*proyek*/
+    .container-proyek h2,.container-proyek h1{
+        text-align: left;
+    }
+    .proyek-proyek{
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    .proyek{
+        width:100%;
+    }
+
+}
